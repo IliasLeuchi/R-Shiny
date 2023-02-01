@@ -23,7 +23,7 @@ sidebar<-dashboardSidebar(
     sidebarMenu(
       sidebarSearchForm(textId = "searchText", buttonId = "searchButton",
                         label = "Search..."),
-      menuItem("Donnée", tabName = "donnée", icon = icon("table")),
+      menuItem("Donnée", tabName = "données", icon = icon("table")),
       menuItem("Age", tabName = "age", icon = icon("bar-chart-o")),
       menuItem("Joueur", tabName = "joueur", icon = icon("person-running")),
       menuItem("Equipe", tabName = "IE", icon = icon("people-pulling")),
